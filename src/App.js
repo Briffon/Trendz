@@ -8,7 +8,6 @@ function App() {
   return (
     <Router>
       <Header />
-      <img src={require("./assets/cart.png")} />
       <Navbar />
       <Routes />
     </Router>
