@@ -1,2 +1,2 @@
 # Trendz
-Mock E-commerce site
+Trendz is a mock E-commerce site selling men's and women's clothing. My main goal with this site is to showcase my skills in ReactJS, SASS and Bootstrap. Trendz features clothing meant for gen Z, they're the next in fashion. When you want a new fresh look for the weekend or a special date Trendz has the drip you need. The site is easily navigated with a fast checkout system using your credit/debit card and/or paypal. The next generation is in!
