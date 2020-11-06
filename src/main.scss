@@ -1,0 +1,52 @@
+@import "./sass/placeholders";
+@import "./sass/Home.scss";
+@import "./sass/Header.scss";
+@import "./sass/Navbar.scss";
+h1 {
+  font-weight: 300;
+}
+h1,
+input,
+textarea,
+button,
+h2,
+p,
+a {
+  font-family: "Oxanium", cursive;
+}
+
+h2 {
+  font-weight: 200;
+}
+html,
+body {
+  max-width: 100%;
+}
+body,
+ul,
+li,
+p,
+a {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  font-size: inherit;
+}

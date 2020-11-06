@@ -1,0 +1,44 @@
+.header {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-right: 50px;
+  margin-left: 50px;
+
+  input {
+    height: 30px;
+    width: 300px;
+    margin-right: 30px;
+    border-radius: 25px;
+    border-style: none;
+    background-color: #f0f0f0;
+    box-shadow: -3px 3px #888888;
+  }
+}
+
+.shopping-cart {
+  height: 45px;
+}
+
+.logo {
+  height: 150px;
+}
+
+.interaction {
+  display: flex;
+  align-items: center;
+}
+
+.search-icon {
+  position: absolute;
+  height: 20px;
+  left: 10px;
+  top: 6.5px;
+}
+
+.search {
+  position: relative;
+}
