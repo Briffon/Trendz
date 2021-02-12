@@ -5,7 +5,7 @@ const Header = () => {
     <div class="header">
       <img
         class="logo"
-        src="https://github.com/Briffon/Trendz/blob/main/src/assets/logo.png?raw=true"
+        src="https://cdn.discordapp.com/attachments/709431402256531639/809783132059861012/unknown.png"
         alt="Trendz logo"
       />
       <div class="interaction">

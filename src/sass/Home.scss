@@ -1,0 +1,31 @@
+.featured{
+    display: flex;
+    place-items: center;
+    place-content: center;
+    flex-direction: row;
+padding: 10px;
+}
+
+.featured-item{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 250px;
+    align-items: center;
+    margin: 0 .5rem;
+    justify-content: center;
+padding: 5px;
+flex-wrap: wrap;
+    img{
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+        -webkit-box-shadow: 0px 1px 2px 1px rgba(135,135,135,1);
+-moz-box-shadow: 0px 1px 2px 1px rgba(135,135,135,1);
+box-shadow: 0px 1px 2px 1px rgba(135,135,135,1);
+    }
+
+    h3{
+        align-self: flex-start;
+    }
+}
