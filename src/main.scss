@@ -2,17 +2,19 @@
 @import "./sass/Home.scss";
 @import "./sass/Header.scss";
 @import "./sass/Navbar.scss";
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Gugi&display=swap");
 h1 {
   font-weight: 300;
 }
 h1,
+h3,
 input,
 textarea,
 button,
 h2,
 p,
 a {
-  font-family: "Oxanium", cursive;
+  font-family: 'Comfortaa', cursive;
 }
 
 h2 {
@@ -20,7 +22,7 @@ h2 {
 }
 html,
 body {
-  max-width: 100%;
+  min-width: fit-content;
 }
 body,
 ul,
@@ -38,6 +40,7 @@ ul {
 img {
   display: block;
   max-width: 100%;
+  
 }
 
 h1,

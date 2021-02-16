@@ -6,7 +6,7 @@ const Home = () => {
     <div class="home">
       <div class="img-carousel">
         <img
-          src="https://cdn.discordapp.com/attachments/709431402256531639/774090550553870376/unknown.png"
+          src="./images/hero.png"
           alt="hero"
         />
         <NavLink class="btn shop-now-btn" to="/" className="link">
@@ -24,7 +24,7 @@ const Home = () => {
         </div>
         <div class="featured-item">
           <img
-            src="https://images.unsplash.com/photo-1514989940723-e8e51635b782?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            src="./images/shoes.png"
             alt="Shoes"
           />
           <h3>Shoes</h3>
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
         <div class="featured-item">
           <img
-            src="https://images.unsplash.com/photo-1547547908-dddfb9113547?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80"
+            src="./images/dresses.png"
             alt="Dresses"
           />
           <h3>Dresses</h3>
