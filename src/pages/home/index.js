@@ -9,7 +9,7 @@ const Home = () => {
           src="./images/hero.png"
           alt="hero"
         />
-        <NavLink className="btn shop-now-btn" to="/" className="link">
+        <NavLink to="/" className="link">
           Shop now
         </NavLink>
       </div>

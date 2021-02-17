@@ -1,0 +1,36 @@
+.divider{
+    border-top: 1px gray solid;
+    width: 5rem;
+    display: flex;
+    background-color: gray;
+}
+
+.shopping{
+    border: 2px solid blue;
+    display: flex;
+}
+
+.filter{
+    border: 2px solid purple;
+    margin: 1rem;
+}
+
+.shopping-items{
+    border: 2px solid red;
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    width: 90%;
+}
+
+.shopping-item{
+    border: 2px black solid;
+    width: 30%;
+    display: inline-block;
+    img{
+        width: 100%;
+    }
+}
