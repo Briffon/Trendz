@@ -1,16 +1,16 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-function Mens(){
+function Womens(){
 
   const shoeFilter =e=>{
-    localStorage.setItem("filter",'{"gender":"Mens","category":"Shoes"}');
+    localStorage.setItem("filter",'{"gender":"Womens","category":"Shoes"}');
   }
 
   return (
-    <div className="mens-screen">
-      <div className="mens-heading">
-        <h2>Mens</h2>
+    <div className="womens-screen">
+      <div className="womens-heading">
+        <h2>Womens</h2>
         <NavLink to="/Shopping" onClick={shoeFilter} className="link">
           Shoes
         </NavLink>
@@ -25,23 +25,23 @@ function Mens(){
         </NavLink>
       </div>
 
-      <div className="mens-featured">
-        <div className="mens-featured-item">
+      <div className="womens-featured">
+        <div className="womens-featured-item">
           <img src="" alt="featured item" />
           <p>ZTimbs</p>
           <button className="btn shop-btn">Shop</button>
         </div>
-        <div className="mens-featured-item">
+        <div className="womens-featured-item">
           <img src="" alt="featured item" />
           <p>Zrips</p>
           <button className="btn shop-btn">Shop</button>
         </div>
-        <div className="mens-featured-item">
+        <div className="womens-featured-item">
           <img src="" alt="featured item" />
           <p>CoatZ</p>
           <button className="btn shop-btn">Shop</button>
         </div>
-        <div className="mens-featured-item">
+        <div className="womens-featured-item">
           <img src="" alt="featured item" />
           <p>T-ShirtZ</p>
           <button className="btn shop-btn">Shop</button>
@@ -51,4 +51,4 @@ function Mens(){
   )
 }
 
-export default Mens;
+export default Womens;
