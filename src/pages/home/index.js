@@ -3,40 +3,40 @@ import { NavLink } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div class="home">
-      <div class="img-carousel">
+    <div className="home">
+      <div className="img-carousel">
         <img
           src="./images/hero.png"
           alt="hero"
         />
-        <NavLink class="btn shop-now-btn" to="/" className="link">
+        <NavLink className="btn shop-now-btn" to="/" className="link">
           Shop now
         </NavLink>
       </div>
 
-      <div class="featured">
-        <div class="featured-item">
+      <div className="featured">
+        <div className="featured-item">
           <img
             src="./images/jackets.jpg"
             alt="Jackets and Coats"
           />
           <h3>Jackets and Coats</h3>
         </div>
-        <div class="featured-item">
+        <div className="featured-item">
           <img
             src="./images/shoes.png"
             alt="Shoes"
           />
           <h3>Shoes</h3>
         </div>
-        <div class="featured-item">
+        <div className="featured-item">
           <img
             src="./images/tshirt.jpg"
             alt="T-shirts"
           />
           <h3>T-Shirts</h3>
         </div>
-        <div class="featured-item">
+        <div className="featured-item">
           <img
             src="./images/dresses.png"
             alt="Dresses"
